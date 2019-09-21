@@ -1,0 +1,8 @@
+cum=0;
+state1=zeros(1662,1);
+for i=1:10000
+    if(all_metrics.state(i)==1)
+         cum=cum+1;
+       state1(cum)=i;
+    end
+end
